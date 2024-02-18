@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4129D70-56F9-45A1-B497-F7E98271F76F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DocExamples</RootNamespace>
+    <AssemblyName>DocExamples</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DocExamples.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Data" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmsAndEvents\AEExamplesMenu.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\PullNotification.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\SWToolbox\TOPServer_AE.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\SubscribeEvents.FilterByCategories.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\SubscribeEvents.CallbackLambda.vb" />
+    <Compile Include="CommonExamplesMenu.vb" />
+    <Compile Include="DataAccess\Xml\BrowseBranches.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\BrowseLeaves.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\BrowseNodes.RecursiveXml.vb" />
+    <Compile Include="DataAccess\Xml\BrowseProperties.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\ChangeItemSubscription.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\GetMultiplePropertyValues.DataTypeXml.vb" />
+    <Compile Include="DataAccess\Xml\GetMultiplePropertyValues.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\GetPropertyValue.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\PullItemChanged.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\ReadItem.DeviceSourceXml.vb" />
+    <Compile Include="DataAccess\Xml\ReadItem.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\ReadItemValue.DeviceSourceXml.vb" />
+    <Compile Include="DataAccess\Xml\ReadItemValue.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\ReadMultipleItems.DeviceSourceXml.vb" />
+    <Compile Include="DataAccess\Xml\ReadMultipleItems.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\ReadMultipleItemValues.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\SubscribeItem.CallbackLambdaXml.vb" />
+    <Compile Include="DataAccess\Xml\SubscribeItem.PercentDeadbandXml.vb" />
+    <Compile Include="DataAccess\Xml\SubscribeMultipleItems.PercentDeadbandXml.vb" />
+    <Compile Include="DataAccess\Xml\WriteItemValue.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\WriteMultipleItemValues.Main1Xml.vb" />
+    <Compile Include="DataAccess\Xml\XmlExamplesMenu.vb" />
+    <Compile Include="DataAccess\_DAClientMapper\DefineMapping.Subscribe.vb" />
+    <Compile Include="DataAccess\_DAClientMapper\DefineMapping.MappingKinds.vb" />
+    <Compile Include="DataAccess\_DAClientMapper\DefineMapping.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClientExtension\WaitForItemValue.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\GetMultiplePropertyValues.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseAccessPaths.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseLeaves.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseBranches.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseServers.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseProperties.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseNodes.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseNodes.DataTypes.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseNodes.Recursive.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ChangeMultipleItemSubscriptions.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\GetMultiplePropertyValues.DataType.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\PullItemChanged.MultipleItems.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItem.DeviceSource.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItem.Synchronous.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItemValue.DeviceSource.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItemValue.CLSID.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadMultipleItemValues.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadMultipleItems.Synchronous.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadMultipleItems.ManyRepeat.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadMultipleItems.DeviceSource.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\Isolated.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeItem.PercentDeadband.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\UnsubscribeMultipleItems.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\UnsubscribeAllItems.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeMultipleItems.WithRead.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeMultipleItems.StateAsObject.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeMultipleItems.StateAsInteger.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeMultipleItems.PercentDeadband.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeMultipleItems.StoreInDictionary.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItemValue.Array.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteItem.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteMultipleItems.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteMultipleItemValues.TestSuccess.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteMultipleItemValues.TimeMeasurements.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeItem.CallbackLambda.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\UnsubscribeItem.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeItem.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeMultipleItems.DataTypes.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItem.DataTypes.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItemValue.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\BrowseNodes.RecursiveWithRead.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteItemValue.Array.vb" />
+    <Compile Include="DataAccess\DAExamplesMenu.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteItemValue.RequestedDataType.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteMultipleItemValues.RequestedDataType.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteMultipleItemValues.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\PullItemChanged.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ChangeItemSubscription.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ChangeItemSubscription.PercentDeadband.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\GetPropertyValue.DataType.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\GetPropertyValue.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItem.GetTypeCode.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItem.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClientExtension\GetDataTypePropertyValue.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClientExtension\GetItemPropertyRecord.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClientExtension\GetPropertyValueDictionary.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAItemChangedEventArgs\General.Main1.vb" />
+    <Compile Include="Program.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="AlarmsAndEvents\_AEAttributeElement\Properties.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_AECategoryElement\Properties.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_AEConditionElement\Properties.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\AcknowledgeCondition.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\BrowseAreas.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\BrowseServers.Main1.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\BrowseSources.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\ChangeEventSubscription.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_AESubscriptionFilter\Properties.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\GetConditionState.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\QueryEventCategories.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\RefreshEventSubscription.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\SubscribeEvents.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\UnsubscribeAllEvents.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\UnsubscribeEvents.Main1.vb" />
+    <Compile Include="_ServerCategories\General.Main1.vb" />
+    <Compile Include="_ServerElement\General.Main1.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmsAndEvents\_EasyAEClient\QuerySourceConditions.Main1.vb" />
+    <Compile Include="AlarmsAndEvents\_EasyAENotificationEventArgs\AttributeValues.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadItem.BrowsePath.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadMultipleItems.TimeMeasurements.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\ReadMultipleItems.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeMultipleItems.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\SubscribeMultipleItems.ManyItems.vb" />
+    <Compile Include="DataAccess\_EasyDAClient\WriteItemValue.Main1.vb" />
+    <Compile Include="DataAccess\_EasyDAClientHoldPeriods\TopicWrite.Main1.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OpcLabs.QuickOpc" Version="5.71.0-rev0019" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

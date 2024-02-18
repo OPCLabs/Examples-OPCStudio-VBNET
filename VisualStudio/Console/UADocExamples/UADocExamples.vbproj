@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+		<ProductVersion>9.0.30729</ProductVersion>
+		<SchemaVersion>2.0</SchemaVersion>
+		<ProjectGuid>{873930B3-8E02-46EF-9D36-B4BFBA6BDAB4}</ProjectGuid>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>UADocExamples</RootNamespace>
+		<AssemblyName>UADocExamples</AssemblyName>
+		<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+		<TargetFrameworkProfile>
+		</TargetFrameworkProfile>
+		<FileAlignment>512</FileAlignment>
+		<SccProjectName>SAK</SccProjectName>
+		<SccLocalPath>SAK</SccLocalPath>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccProvider>SAK</SccProvider>
+		<OptionExplicit>On</OptionExplicit>
+		<OptionCompare>Binary</OptionCompare>
+		<OptionStrict>Off</OptionStrict>
+		<OptionInfer>On</OptionInfer>
+		<FileUpgradeFlags>
+		</FileUpgradeFlags>
+		<UpgradeBackupLocation>
+		</UpgradeBackupLocation>
+		<OldToolsVersion>3.5</OldToolsVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+		<DebugSymbols>true</DebugSymbols>
+		<OutputPath>bin\Debug\</OutputPath>
+		<DefineDebug>true</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DebugType>full</DebugType>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<CodeAnalysisLogFile>bin\Debug\ConsoleApplication1.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+		<CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+		<CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+		<ErrorReport>prompt</ErrorReport>
+		<CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+		<CodeAnalysisRuleSetDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+		<CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+		<CodeAnalysisRuleDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+		<CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+		<CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+		<NoWarn>42353,42354,42355</NoWarn>
+		<Prefer32Bit>false</Prefer32Bit>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+		<OutputPath>bin\Release\</OutputPath>
+		<DefineDebug>false</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<Optimize>true</Optimize>
+		<DebugType>pdbonly</DebugType>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<CodeAnalysisLogFile>bin\Release\ConsoleApplication1.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+		<CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+		<CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+		<ErrorReport>prompt</ErrorReport>
+		<CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+		<CodeAnalysisRuleSetDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+		<CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+		<CodeAnalysisRuleDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+		<CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+		<CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+		<NoWarn>42353,42354,42355</NoWarn>
+		<Prefer32Bit>false</Prefer32Bit>
+	</PropertyGroup>
+	<PropertyGroup>
+		<StartupObject>UADocExamples.Program</StartupObject>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="System"/>
+		<Reference Include="System.Core">
+			<RequiredTargetFramework>3.5</RequiredTargetFramework>
+		</Reference>
+		<Reference Include="System.XML"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Import Include="Microsoft.VisualBasic"/>
+		<Import Include="System.Collections.Generic"/>
+		<Import Include="System.Diagnostics"/>
+		<Import Include="System"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="AlarmsAndConditions\Acknowledge.AckedState.vb"/>
+		<Compile Include="AlarmsAndConditions\Acknowledge.Main1.vb"/>
+		<Compile Include="AlarmsAndConditions\AlarmsAndConditionsExamplesMenu.vb"/>
+		<Compile Include="AlarmsAndConditions\ReadAlarmState.Main1.vb"/>
+		<Compile Include="Application\ApplicationExamplesMenu.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.AssureOwnCertificate.Main1.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.UpdateGdsRegistration.Main1.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.UnregisterFromGds.Main1.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.RegisterToGds.Main1.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.RefreshTrustLists.Main1.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.ObtainNewCertificate.Progress.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.ObtainNewCertificate.Main1.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.GetCertificateSubjectName.Main1.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.GetApplicationElement.Main1.vb"/>
+		<Compile Include="Application\_IEasyUAClientServerApplication.FindGdsRegistrations.Main1.vb"/>
+		<Compile Include="ComplexData\ComplexDataExamplesMenu.vb"/>
+		<Compile Include="ComplexData\_UAComplexDataClientPluginParameters.IsolatedDataTypeModelProvider.Main1.vb"/>
+		<Compile Include="ComplexData\_PluginSetup.Enabled.Main1.vb"/>
+		<Compile Include="ComplexData\_IUADataTypeDictionaryProvider.ResolveDataTypeDescriptorFromDataTypeEncodingId.Main1.vb"/>
+		<Compile Include="ComplexData\_IEasyUAClientComplexData.ResolveDataType.Main1.vb"/>
+		<Compile Include="ComplexData\_GenericData.DataTypeKind1.Main1.vb"/>
+		<Compile Include="ComplexData\_GenericData._Construction.Main1.vb"/>
+		<Compile Include="ComplexData\_EasyUAClient.WriteValue.Main1.vb"/>
+		<Compile Include="ComplexData\_EasyUAClient.SubscribeDataChange.Main1.vb"/>
+		<Compile Include="ComplexData\_EasyUAClient.ReadValue.Main1.vb"/>
+		<Compile Include="ComplexData\_DataType.Kind.Main1.vb"/>
+		<Compile Include="FileProviders\FileProvidersExamplesMenu.vb"/>
+		<Compile Include="FileProviders\_WritableFileInfo.WriteAllBytes.Main1.vb"/>
+		<Compile Include="FileProviders\_WritableFileInfo.Write.Main1.vb"/>
+		<Compile Include="FileProviders\_WritableFileInfo.CreateAndDelete.Main1.vb"/>
+		<Compile Include="FileProviders\_WritableFileInfo.CopyTo.Main1.vb"/>
+		<Compile Include="FileProviders\_WritableDirectoryContents.CreateAndDelete.Main1.vb"/>
+		<Compile Include="FileProviders\_FileInfo2.ReadText.Main1.vb"/>
+		<Compile Include="FileProviders\_FileInfo2.ReadAndSeek.Main1.vb"/>
+		<Compile Include="FileProviders\_FileInfo2.ReadAllBytes.Main1.vb"/>
+		<Compile Include="FileProviders\_FileInfo2.Properties.Main1.vb"/>
+		<Compile Include="FileProviders\_DirectoryContents2.Enumerate.Main1.vb"/>
+		<Compile Include="FileTransfer\FileTransferExamplesMenu.vb"/>
+		<Compile Include="FileTransfer\_UAFileStream.ReadText.Main1.vb"/>
+		<Compile Include="FileTransfer\_UAFileStream.ReadAndSeek.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.WriteFile.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.WriteAllBytes.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.ReadAndSetFilePosition.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.ReadAllBytes.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.GetFileProperties.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.CreateFileAndDelete.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.CreateDirectoryAndDelete.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.BrowseFiles.Main1.vb"/>
+		<Compile Include="FileTransfer\_EasyUAFileTransferClient.Copy.File1.vb"/>
+		<Compile Include="Gds\GdsExamplesMenu.vb"/>
+		<Compile Include="Gds\_EasyUACertificateManagementClient.BrowseCertificateGroups.Main1.vb"/>
+		<Compile Include="Gds\_EasyUAGlobalDiscoveryClient.UnregisterApplication.Main1.vb"/>
+		<Compile Include="Gds\_EasyUAGlobalDiscoveryClient.QueryServers.Main1.vb"/>
+		<Compile Include="Gds\_EasyUAGlobalDiscoveryClient.QueryApplications.Main1.vb"/>
+		<Compile Include="Gds\_EasyUAGlobalDiscoveryClient.FindApplications.Main1.vb"/>
+		<Compile Include="Gds\_EasyUACertificateManagementClient.GetCertificateStatus.Main1.vb"/>
+		<Compile Include="Interaction\ConsoleInteraction.TurnOff.vb"/>
+		<Compile Include="Interaction\ConsoleInteraction.ColorizeOutput.vb"/>
+		<Compile Include="Interaction\AllowEndpointDomain.Main1.vb"/>
+		<Compile Include="Interaction\AcceptCertificate.Instance.vb"/>
+		<Compile Include="Interaction\AcceptCertificate.Https.vb"/>
+		<Compile Include="Interaction\InteractionExamplesMenu.vb"/>
+		<Compile Include="Licensing\LicenseInfo.AllFields.vb"/>
+		<Compile Include="Licensing\LicenseInfo.SerialNumber.vb"/>
+		<Compile Include="Licensing\_LicensingManagement.RegisterManagedResourceWithExistenceCheck.vb"/>
+		<Compile Include="Licensing\_LicensingManagement.RegisterManagedResource.vb"/>
+		<Compile Include="Licensing\LicensingExamplesMenu.vb"/>
+		<Compile Include="PubSub\PubSubExamplesMenu.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\PullDataSetMessage.Main1.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.Callback.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.CaptureFile.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.Ethernet.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.ExtractField.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.FieldNames.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.Filter.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.Main1.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.MappingParameters.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.Secure.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.MqttUadpTcp.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.MqttTcpSaveCopy.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.MqttJsonTcp.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.MqttFromFileStorage.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.Metadata.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.PublishedDataSet.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.PublisherId.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSet.ResolveFromFile.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\SubscribeDataSetField.Main1.vb"/>
+		<Compile Include="PubSub\_EasyUASubscriber\UnsubscribeDataSet.Main1.vb"/>
+		<Compile Include="PubSub\_IUAReadOnlyPubSubConfiguration\GetMethods.PublishedDataSets.vb"/>
+		<Compile Include="PubSub\_IUAReadOnlyPubSubConfiguration\GetMethods.PubSubComponents.vb"/>
+		<Compile Include="Specialized\UnifiedAutomation_UaSdkNetBundle.RegisterAndUnregisterNodes.vb"/>
+		<Compile Include="Specialized\SpecializedExamplesMenu.vb"/>
+		<Compile Include="UAExamplesMenu.vb"/>
+		<Compile Include="_CertificateGenerationParameters\ValidityPeriodInMonths.Main1.vb"/>
+		<Compile Include="_EasyUAClientConnectionControl\LockAndUnlockConnection.Main1.vb"/>
+		<Compile Include="_EasyUAClientConnectionControl\DisposableLockConnection.Main1.vb"/>
+		<Compile Include="_EasyUAClientConnectionMonitoring\ServerConditionChanged.Main1.vb"/>
+		<Compile Include="_EasyUAClientExtension\WaitForValue.Main1.vb"/>
+		<Compile Include="_EasyUAClientNodeRegistration\RegisterAndUnregisterMultipleNodes.Main1.vb"/>
+		<Compile Include="_EasyUAClient\BrowseDataNodes.Recursive.vb"/>
+		<Compile Include="_EasyUAClient\Browse.Main1.vb"/>
+		<Compile Include="_EasyUAClient\BrowseMethods.Overload2.vb"/>
+		<Compile Include="_EasyUAClient\Read.FromDevice.vb"/>
+		<Compile Include="_EasyUAClient\ReadMultiple.FromDevice.vb"/>
+		<Compile Include="_EasyUAClient\ReadValue.ArrayOfUInt16.vb"/>
+		<Compile Include="_EasyUAClient\Isolated.Main1.vb"/>
+		<Compile Include="_EasyUAClient\ReadValue.MultipleServers.vb"/>
+		<Compile Include="_EasyUAClient\ReadValue.Repeated.vb"/>
+		<Compile Include="_EasyUAClient\ReadValue.NamespaceArray.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeDataChange.AbsoluteDeadband.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeDataChange.PercentDeadband.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeMultipleMonitoredItems.AbsoluteDeadband.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeMultipleMonitoredItems.StoreInDictionary.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeMultipleMonitoredItems.PercentDeadband.vb"/>
+		<Compile Include="_EasyUAClient\UnsubscribeMultipleMonitoredItems.Some.vb"/>
+		<Compile Include="_EasyUAClient\WriteValue.ArrayOfInt32.vb"/>
+		<Compile Include="_EasyUAClient\WriteValue.Incrementing.vb"/>
+		<Compile Include="_UAApplicationManifest\InstanceOwnStorePath.PlatformSpecific.vb"/>
+		<Compile Include="_UAApplicationManifest\ApplicationName.Main1.vb"/>
+		<Compile Include="_EasyUAClient\ReadMultiple.BrowsePath.vb"/>
+		<Compile Include="_EasyUAClient\ReadMultipleValues.DataType.vb"/>
+		<Compile Include="_EasyUAClient\RetrieveAllDataTypes.Main1.vb"/>
+		<Compile Include="_EasyUAClient\LogEntry.Main1.vb"/>
+		<Compile Include="AlarmsAndConditions\BrowseNotifiers.Overload2.vb"/>
+		<Compile Include="AlarmsAndConditions\BrowseEventSources.Overload2.vb"/>
+		<Compile Include="_EasyUAClient\CallMultipleMethods.Main1.vb"/>
+		<Compile Include="_EasyUAClient\CallMethod.Main1.vb"/>
+		<Compile Include="_EasyUAClient\DiscoverGlobalServers.Main1.vb"/>
+		<Compile Include="_EasyUAClient\DiscoverGlobalServers.Hierarchical.vb"/>
+		<Compile Include="_EasyUAClient\DiscoverNetworkServers.Hierarchical.vb"/>
+		<Compile Include="_EasyUAClient\FindLocalApplications.Main1.vb"/>
+		<Compile Include="_EasyUAClient\DiscoverNetworkServers.Main1.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeDataChange.Filter.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeMultipleMonitoredItems.AllInObject.vb"/>
+		<Compile Include="AlarmsAndConditions\SubscribeMultipleMonitoredItems.Events.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeMultipleMonitoredItems.Filter.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeMultipleMonitoredItems.StateAsObject.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeMultipleMonitoredItems.StateAsInteger.vb"/>
+		<Compile Include="_EasyUAClient\WriteMultipleValues.ValueTypeFullName.vb"/>
+		<Compile Include="_EasyUAClient\WriteMultipleValues.ValueTypeCode.vb"/>
+		<Compile Include="_EasyUAClient\WriteMultipleValues.ValueType.vb"/>
+		<Compile Include="_EasyUAClient\WriteValue.ByteString.vb"/>
+		<Compile Include="_EasyUAClient\WriteValue.TypeCode.vb"/>
+		<Compile Include="_EasyUAClient\WriteValue.Type.vb"/>
+		<Compile Include="_EasyUAClient\ReadValue.Overload2.vb"/>
+		<Compile Include="_UABrowsePathParser\TryParseRelative.Main1.vb"/>
+		<Compile Include="_UABrowsePathParser\TryParse.Main1.vb"/>
+		<Compile Include="_UABrowsePathParser\ParseRelative.Main1.vb"/>
+		<Compile Include="_UABrowsePathParser\Parse.Main1.vb"/>
+		<Compile Include="_UAClientMapper\DefineMapping.Main1.vb"/>
+		<Compile Include="AlarmsAndConditions\FieldResults.Main1.vb"/>
+		<Compile Include="AlarmsAndConditions\BaseEvent.Main1.vb"/>
+		<Compile Include="AlarmsAndConditions\WhereClause.Main1.vb"/>
+		<Compile Include="AlarmsAndConditions\SelectClauses.Main1.vb"/>
+		<Compile Include="_UAClientSessionParameters\Timeouts.Isolated.vb"/>
+		<Compile Include="_UAIndexRangeList\Usage.Subscribe.vb"/>
+		<Compile Include="_UANodeId\_Construction.Main1.vb"/>
+		<Compile Include="_UAIndexRangeList\Usage.ReadValue.vb"/>
+		<Compile Include="AlarmsAndConditions\PullEventNotification.Main1.vb"/>
+		<Compile Include="_EasyUAClient\PullDataChangeNotification.Main1.vb"/>
+		<Compile Include="AlarmsAndConditions\SubscribeEvent.CallbackLambda.vb"/>
+		<Compile Include="AlarmsAndConditions\SubscribeEvent.Overload1.vb"/>
+		<Compile Include="Program.vb"/>
+		<Compile Include="My Project\AssemblyInfo.vb"/>
+		<Compile Include="My Project\AssemblyVersionInfo.vb"/>
+		<Compile Include="_EasyUAClient\BrowseDataNodes.Overload1.vb"/>
+		<Compile Include="_EasyUAClient\Browse.All.vb"/>
+		<Compile Include="_EasyUAClient\BrowseObjects.Overload2.vb"/>
+		<Compile Include="_EasyUAClient\BrowseProperties.Overload2.vb"/>
+		<Compile Include="_EasyUAClient\BrowseDataVariables.Overload2.vb"/>
+		<Compile Include="_EasyUAClient\ChangeMonitoredItemSubscription.Overload1.vb"/>
+		<Compile Include="_EasyUAClient\ChangeMultipleMonitoredItemSubscriptions.Overload2.vb"/>
+		<Compile Include="_EasyUAClient\DiscoverLocalServers.Overload1.vb"/>
+		<Compile Include="_EasyUAClient\GetMonitoredItemArguments.Main1.vb"/>
+		<Compile Include="_EasyUAClient\GetMonitoredItemArgumentsDictionary.Main1.vb"/>
+		<Compile Include="_EasyUAClient\Read.Main1.vb"/>
+		<Compile Include="_EasyUAClient\ReadMultiple.Main1.vb"/>
+		<Compile Include="_EasyUAClient\ReadMultipleValues.Main1.vb"/>
+		<Compile Include="_EasyUAClient\ReadValue.Overload1.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeDataChange.CallbackLambda.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeDataChange.Overload1.vb"/>
+		<Compile Include="_EasyUAClient\SubscribeMultipleMonitoredItems.Main1.vb"/>
+		<Compile Include="_EasyUAClient\UnsubscribeAllMonitoredItems.Main1.vb"/>
+		<Compile Include="_EasyUAClient\UnsubscribeMonitoredItem.Main1.vb"/>
+		<Compile Include="_EasyUAClient\UnsubscribeMultipleMonitoredItems.Main1.vb"/>
+		<Compile Include="_EasyUAClient\Write.Main1.vb"/>
+		<Compile Include="_EasyUAClient\WriteMultiple.TestSuccess.vb"/>
+		<Compile Include="_EasyUAClient\WriteMultipleValues.Main1.vb"/>
+		<Compile Include="_EasyUAClient\WriteMultipleValues.TestSuccess.vb"/>
+		<Compile Include="_EasyUAClient\WriteValue.Main1.vb"/>
+		<Compile Include="_UAStatusCode\ToString.Main1.vb"/>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Licensing\Key-DemoOrTrial-WebForm-1999003494-20180611.bin"/>
+		<None Include="UADemoPublisher-Default.uabinary">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="UADemoPublisher-Ethernet.pcap">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="UADemoPublisher-EthernetVlan.pcap">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="UADemoPublisher-UDP.pcap">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="UADemoPublisher-UDP6.pcap">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="OpcLabs.MqttNet" Version="5.80.0-rev0027"/>
+		<PackageReference Include="OpcLabs.Pcap" Version="5.80.0-rev0027"/>
+		<PackageReference Include="OpcLabs.QuickOpc" Version="5.80.0-rev0027"/>
+	</ItemGroup>
+	<Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets"/>
+	<!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

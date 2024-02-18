@@ -1,0 +1,420 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsForms", "WindowsForms", "{5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsService", "WindowsService", "{20F49D2C-372E-4DC3-A1F1-9C3AC56643E4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebApplication1", "Web\WebApplication1\WebApplication1.vbproj", "{5708702C-F666-4EA5-9452-7F15BC741003}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QualityStrings", "WindowsForms\QualityStrings\QualityStrings.vbproj", "{F431FB2B-641B-4EF8-9FB4-8C67E0C0DFCA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BrowseBranchesWeb", "Web\BrowseBranchesWeb\BrowseBranchesWeb.vbproj", "{5E9BAEAD-F0BC-4CCC-8F74-076B640CA488}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BrowseServersWeb", "Web\BrowseServersWeb\BrowseServersWeb.vbproj", "{A966BEFF-0AEB-4AD4-B908-3BE45638600E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ValueToMessageBox", "WindowsForms\ValueToMessageBox\ValueToMessageBox.vbproj", "{C9AC50BE-A4D7-4798-87BC-C49A26465193}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SubscribeToMany", "WindowsForms\SubscribeToMany\SubscribeToMany.vbproj", "{06EDD494-6276-4BB1-AA64-E1A2AAD2034E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HmiScreen", "WindowsForms\HmiScreen\HmiScreen.vbproj", "{80DE7627-0B5F-4972-AC53-9BE3B4A5F77C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AutoRefreshWeb", "Web\AutoRefreshWeb\AutoRefreshWeb.vbproj", "{734F9A34-DD55-4014-8558-9D88D13C222D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsFormsApplication1", "WindowsForms\WindowsFormsApplication1\WindowsFormsApplication1.vbproj", "{3375DB12-E3D1-4EB7-83FC-97FB24CCF1E9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EasyOpcNetDemo", "WindowsForms\EasyOpcNetDemo\EasyOpcNetDemo.vbproj", "{1FF4DCA0-11C2-4617-B8B9-8B8885524D00}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConsoleLiveMapping", "Console\ConsoleLiveMapping\ConsoleLiveMapping.vbproj", "{29E3B9B1-09CB-4221-8A2A-173884844894}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LiveBindingDemo", "WindowsForms\LiveBindingDemo\LiveBindingDemo.vbproj", "{F5985872-B70E-4B31-B85D-16CE07F3ED6C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UADocExamples", "Console\UADocExamples\UADocExamples.vbproj", "{873930B3-8E02-46EF-9D36-B4BFBA6BDAB4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UAWebApplication1", "Web\UAWebApplication1\UAWebApplication1.vbproj", "{9CCBEBFF-679B-4510-BE88-02D18675C30B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EasyOpcUADemo", "WindowsForms\EasyOpcUADemo\EasyOpcUADemo.vbproj", "{D0D84A59-8A2B-4DC0-A24E-61C6B8B9B7FA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UAConsoleLiveMapping", "Console\UAConsoleLiveMapping\UAConsoleLiveMapping.vbproj", "{F2448D5B-1A58-4088-A89F-94AC3FEDCF85}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UALiveBindingDemo", "WindowsForms\UALiveBindingDemo\UALiveBindingDemo.vbproj", "{4118475B-5EF8-4B5D-A4FC-FA6D378FEA94}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataGridWebApplication", "Web\DataGridWebApplication\DataGridWebApplication.vbproj", "{BB11B705-1BD8-4F3C-98F8-07F65F69B9D1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LogAsUnionToSql", "Console\LogAsUnionToSql\LogAsUnionToSql.vbproj", "{72519C5F-36A5-48BA-A69C-23C4C4D572C6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LogAsStringToSql", "Console\LogAsStringToSql\LogAsStringToSql.vbproj", "{EDAA047F-06C2-42D2-8515-AE3AE07C3672}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LogToSqlEnhanced", "Console\LogToSqlEnhanced\LogToSqlEnhanced.vbproj", "{58DF5F34-E41B-4F52-9883-BEA1C369281A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SimpleLogToSql", "Console\SimpleLogToSql\SimpleLogToSql.vbproj", "{9A5F31E9-2269-4169-A160-FC593127A193}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XmlLogger", "Console\XmlLogger\XmlLogger.vbproj", "{4D5FB098-9183-46D3-8B27-94A60323E6A0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XmlEventLogger", "Console\XmlEventLogger\XmlEventLogger.vbproj", "{857D2BF6-D0BF-4557-8D78-75320E324D04}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SubscribeFromXml", "Console\SubscribeFromXml\SubscribeFromXml.vbproj", "{8BBB9547-FAF2-440D-9332-94679AF03610}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OvenControl", "WindowsForms\OvenControl\OvenControl.vbproj", "{E5135283-DA71-4BF8-ACF9-07B38EDE58C0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DocExamples", "Console\DocExamples\DocExamples.vbproj", "{B4129D70-56F9-45A1-B497-F7E98271F76F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsService1", "WindowsService\WindowsService1\WindowsService1.vbproj", "{C99524CC-69D2-4AAA-9919-995CDBCE18FD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebService1", "Web\WebService1\WebService1.vbproj", "{C8794DC2-3165-4E6A-96AA-86C4C2DD69F7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WcfService1", "Web\WcfService1\WcfService1.vbproj", "{7C102308-2DA1-4C9B-968E-7CD9BE2DA635}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WcfClient1", "Console\WcfClient1\WcfClient1.vbproj", "{D337BACE-5162-41E1-AFB2-AB23D525CD3B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ListView1", "WindowsForms\ListView1\ListView1.vbproj", "{3031A859-A6B7-4F71-9A53-41259FA734CA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FormsDocExamples", "WindowsForms\FormsDocExamples\FormsDocExamples.vbproj", "{6EBA8453-8EB7-44CE-BE70-1309353EDEB0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UAFormsDocExamples", "WindowsForms\UAFormsDocExamples\UAFormsDocExamples.vbproj", "{4612FD4D-D897-4800-8A5B-95432191B740}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EasyOpcUAPubSubDemo", "WindowsForms\EasyOpcUAPubSubDemo\EasyOpcUAPubSubDemo.vbproj", "{1D8402D4-0E1F-4D6D-A5CE-866D137FC816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5708702C-F666-4EA5-9452-7F15BC741003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5708702C-F666-4EA5-9452-7F15BC741003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5708702C-F666-4EA5-9452-7F15BC741003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5708702C-F666-4EA5-9452-7F15BC741003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F431FB2B-641B-4EF8-9FB4-8C67E0C0DFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F431FB2B-641B-4EF8-9FB4-8C67E0C0DFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F431FB2B-641B-4EF8-9FB4-8C67E0C0DFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F431FB2B-641B-4EF8-9FB4-8C67E0C0DFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9BAEAD-F0BC-4CCC-8F74-076B640CA488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9BAEAD-F0BC-4CCC-8F74-076B640CA488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9BAEAD-F0BC-4CCC-8F74-076B640CA488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9BAEAD-F0BC-4CCC-8F74-076B640CA488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A966BEFF-0AEB-4AD4-B908-3BE45638600E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A966BEFF-0AEB-4AD4-B908-3BE45638600E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A966BEFF-0AEB-4AD4-B908-3BE45638600E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A966BEFF-0AEB-4AD4-B908-3BE45638600E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AC50BE-A4D7-4798-87BC-C49A26465193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AC50BE-A4D7-4798-87BC-C49A26465193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AC50BE-A4D7-4798-87BC-C49A26465193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AC50BE-A4D7-4798-87BC-C49A26465193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EDD494-6276-4BB1-AA64-E1A2AAD2034E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EDD494-6276-4BB1-AA64-E1A2AAD2034E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EDD494-6276-4BB1-AA64-E1A2AAD2034E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EDD494-6276-4BB1-AA64-E1A2AAD2034E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DE7627-0B5F-4972-AC53-9BE3B4A5F77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DE7627-0B5F-4972-AC53-9BE3B4A5F77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DE7627-0B5F-4972-AC53-9BE3B4A5F77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DE7627-0B5F-4972-AC53-9BE3B4A5F77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734F9A34-DD55-4014-8558-9D88D13C222D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734F9A34-DD55-4014-8558-9D88D13C222D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734F9A34-DD55-4014-8558-9D88D13C222D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734F9A34-DD55-4014-8558-9D88D13C222D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3375DB12-E3D1-4EB7-83FC-97FB24CCF1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3375DB12-E3D1-4EB7-83FC-97FB24CCF1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3375DB12-E3D1-4EB7-83FC-97FB24CCF1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3375DB12-E3D1-4EB7-83FC-97FB24CCF1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF4DCA0-11C2-4617-B8B9-8B8885524D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF4DCA0-11C2-4617-B8B9-8B8885524D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF4DCA0-11C2-4617-B8B9-8B8885524D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF4DCA0-11C2-4617-B8B9-8B8885524D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E3B9B1-09CB-4221-8A2A-173884844894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E3B9B1-09CB-4221-8A2A-173884844894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E3B9B1-09CB-4221-8A2A-173884844894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E3B9B1-09CB-4221-8A2A-173884844894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5985872-B70E-4B31-B85D-16CE07F3ED6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5985872-B70E-4B31-B85D-16CE07F3ED6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5985872-B70E-4B31-B85D-16CE07F3ED6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5985872-B70E-4B31-B85D-16CE07F3ED6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873930B3-8E02-46EF-9D36-B4BFBA6BDAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873930B3-8E02-46EF-9D36-B4BFBA6BDAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873930B3-8E02-46EF-9D36-B4BFBA6BDAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873930B3-8E02-46EF-9D36-B4BFBA6BDAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCBEBFF-679B-4510-BE88-02D18675C30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCBEBFF-679B-4510-BE88-02D18675C30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCBEBFF-679B-4510-BE88-02D18675C30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCBEBFF-679B-4510-BE88-02D18675C30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D84A59-8A2B-4DC0-A24E-61C6B8B9B7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D84A59-8A2B-4DC0-A24E-61C6B8B9B7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D84A59-8A2B-4DC0-A24E-61C6B8B9B7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D84A59-8A2B-4DC0-A24E-61C6B8B9B7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2448D5B-1A58-4088-A89F-94AC3FEDCF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2448D5B-1A58-4088-A89F-94AC3FEDCF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2448D5B-1A58-4088-A89F-94AC3FEDCF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2448D5B-1A58-4088-A89F-94AC3FEDCF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4118475B-5EF8-4B5D-A4FC-FA6D378FEA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4118475B-5EF8-4B5D-A4FC-FA6D378FEA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4118475B-5EF8-4B5D-A4FC-FA6D378FEA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4118475B-5EF8-4B5D-A4FC-FA6D378FEA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB11B705-1BD8-4F3C-98F8-07F65F69B9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB11B705-1BD8-4F3C-98F8-07F65F69B9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB11B705-1BD8-4F3C-98F8-07F65F69B9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB11B705-1BD8-4F3C-98F8-07F65F69B9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72519C5F-36A5-48BA-A69C-23C4C4D572C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72519C5F-36A5-48BA-A69C-23C4C4D572C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72519C5F-36A5-48BA-A69C-23C4C4D572C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72519C5F-36A5-48BA-A69C-23C4C4D572C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAA047F-06C2-42D2-8515-AE3AE07C3672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAA047F-06C2-42D2-8515-AE3AE07C3672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAA047F-06C2-42D2-8515-AE3AE07C3672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAA047F-06C2-42D2-8515-AE3AE07C3672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DF5F34-E41B-4F52-9883-BEA1C369281A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DF5F34-E41B-4F52-9883-BEA1C369281A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DF5F34-E41B-4F52-9883-BEA1C369281A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DF5F34-E41B-4F52-9883-BEA1C369281A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5F31E9-2269-4169-A160-FC593127A193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5F31E9-2269-4169-A160-FC593127A193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5F31E9-2269-4169-A160-FC593127A193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5F31E9-2269-4169-A160-FC593127A193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5FB098-9183-46D3-8B27-94A60323E6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5FB098-9183-46D3-8B27-94A60323E6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5FB098-9183-46D3-8B27-94A60323E6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5FB098-9183-46D3-8B27-94A60323E6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857D2BF6-D0BF-4557-8D78-75320E324D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857D2BF6-D0BF-4557-8D78-75320E324D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857D2BF6-D0BF-4557-8D78-75320E324D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857D2BF6-D0BF-4557-8D78-75320E324D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBB9547-FAF2-440D-9332-94679AF03610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBB9547-FAF2-440D-9332-94679AF03610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBB9547-FAF2-440D-9332-94679AF03610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBB9547-FAF2-440D-9332-94679AF03610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5135283-DA71-4BF8-ACF9-07B38EDE58C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5135283-DA71-4BF8-ACF9-07B38EDE58C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5135283-DA71-4BF8-ACF9-07B38EDE58C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5135283-DA71-4BF8-ACF9-07B38EDE58C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4129D70-56F9-45A1-B497-F7E98271F76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4129D70-56F9-45A1-B497-F7E98271F76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4129D70-56F9-45A1-B497-F7E98271F76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4129D70-56F9-45A1-B497-F7E98271F76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99524CC-69D2-4AAA-9919-995CDBCE18FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99524CC-69D2-4AAA-9919-995CDBCE18FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99524CC-69D2-4AAA-9919-995CDBCE18FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99524CC-69D2-4AAA-9919-995CDBCE18FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8794DC2-3165-4E6A-96AA-86C4C2DD69F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8794DC2-3165-4E6A-96AA-86C4C2DD69F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8794DC2-3165-4E6A-96AA-86C4C2DD69F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8794DC2-3165-4E6A-96AA-86C4C2DD69F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C102308-2DA1-4C9B-968E-7CD9BE2DA635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C102308-2DA1-4C9B-968E-7CD9BE2DA635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C102308-2DA1-4C9B-968E-7CD9BE2DA635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C102308-2DA1-4C9B-968E-7CD9BE2DA635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D337BACE-5162-41E1-AFB2-AB23D525CD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D337BACE-5162-41E1-AFB2-AB23D525CD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D337BACE-5162-41E1-AFB2-AB23D525CD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D337BACE-5162-41E1-AFB2-AB23D525CD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3031A859-A6B7-4F71-9A53-41259FA734CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3031A859-A6B7-4F71-9A53-41259FA734CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3031A859-A6B7-4F71-9A53-41259FA734CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3031A859-A6B7-4F71-9A53-41259FA734CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBA8453-8EB7-44CE-BE70-1309353EDEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBA8453-8EB7-44CE-BE70-1309353EDEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBA8453-8EB7-44CE-BE70-1309353EDEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBA8453-8EB7-44CE-BE70-1309353EDEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4612FD4D-D897-4800-8A5B-95432191B740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4612FD4D-D897-4800-8A5B-95432191B740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4612FD4D-D897-4800-8A5B-95432191B740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4612FD4D-D897-4800-8A5B-95432191B740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8402D4-0E1F-4D6D-A5CE-866D137FC816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8402D4-0E1F-4D6D-A5CE-866D137FC816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8402D4-0E1F-4D6D-A5CE-866D137FC816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8402D4-0E1F-4D6D-A5CE-866D137FC816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5708702C-F666-4EA5-9452-7F15BC741003} = {E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}
+		{F431FB2B-641B-4EF8-9FB4-8C67E0C0DFCA} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{5E9BAEAD-F0BC-4CCC-8F74-076B640CA488} = {E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}
+		{A966BEFF-0AEB-4AD4-B908-3BE45638600E} = {E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}
+		{C9AC50BE-A4D7-4798-87BC-C49A26465193} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{06EDD494-6276-4BB1-AA64-E1A2AAD2034E} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{80DE7627-0B5F-4972-AC53-9BE3B4A5F77C} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{734F9A34-DD55-4014-8558-9D88D13C222D} = {E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}
+		{3375DB12-E3D1-4EB7-83FC-97FB24CCF1E9} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{1FF4DCA0-11C2-4617-B8B9-8B8885524D00} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{29E3B9B1-09CB-4221-8A2A-173884844894} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{F5985872-B70E-4B31-B85D-16CE07F3ED6C} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{873930B3-8E02-46EF-9D36-B4BFBA6BDAB4} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{9CCBEBFF-679B-4510-BE88-02D18675C30B} = {E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}
+		{D0D84A59-8A2B-4DC0-A24E-61C6B8B9B7FA} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{F2448D5B-1A58-4088-A89F-94AC3FEDCF85} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{4118475B-5EF8-4B5D-A4FC-FA6D378FEA94} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{BB11B705-1BD8-4F3C-98F8-07F65F69B9D1} = {E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}
+		{72519C5F-36A5-48BA-A69C-23C4C4D572C6} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{EDAA047F-06C2-42D2-8515-AE3AE07C3672} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{58DF5F34-E41B-4F52-9883-BEA1C369281A} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{9A5F31E9-2269-4169-A160-FC593127A193} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{4D5FB098-9183-46D3-8B27-94A60323E6A0} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{857D2BF6-D0BF-4557-8D78-75320E324D04} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{8BBB9547-FAF2-440D-9332-94679AF03610} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{E5135283-DA71-4BF8-ACF9-07B38EDE58C0} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{B4129D70-56F9-45A1-B497-F7E98271F76F} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{C99524CC-69D2-4AAA-9919-995CDBCE18FD} = {20F49D2C-372E-4DC3-A1F1-9C3AC56643E4}
+		{C8794DC2-3165-4E6A-96AA-86C4C2DD69F7} = {E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}
+		{7C102308-2DA1-4C9B-968E-7CD9BE2DA635} = {E6671B54-3DB1-4C9A-9AEE-E2B1534709EC}
+		{D337BACE-5162-41E1-AFB2-AB23D525CD3B} = {D5E0C9C4-3DC1-43CB-B0A5-2E72FA6D77CF}
+		{3031A859-A6B7-4F71-9A53-41259FA734CA} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{6EBA8453-8EB7-44CE-BE70-1309353EDEB0} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{4612FD4D-D897-4800-8A5B-95432191B740} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+		{1D8402D4-0E1F-4D6D-A5CE-866D137FC816} = {5D44F0F3-1B3B-43C8-8E78-7644CFC2BE3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {976E64BE-D4E5-4EA7-9685-F03BEF43F6AE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 36
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/opclabs3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Web\\WebApplication1\\WebApplication1.vbproj
+		SccProjectTopLevelParentUniqueName1 = QuickOpcVBNetExamples.sln
+		SccProjectName1 = Web/WebApplication1
+		SccLocalPath1 = Web\\WebApplication1
+		SccProjectUniqueName2 = WindowsForms\\QualityStrings\\QualityStrings.vbproj
+		SccProjectTopLevelParentUniqueName2 = QuickOpcVBNetExamples.sln
+		SccProjectName2 = WindowsForms/QualityStrings
+		SccLocalPath2 = WindowsForms\\QualityStrings
+		SccProjectUniqueName3 = Web\\BrowseBranchesWeb\\BrowseBranchesWeb.vbproj
+		SccProjectTopLevelParentUniqueName3 = QuickOpcVBNetExamples.sln
+		SccProjectName3 = Web/BrowseBranchesWeb
+		SccLocalPath3 = Web\\BrowseBranchesWeb
+		SccProjectUniqueName4 = Web\\BrowseServersWeb\\BrowseServersWeb.vbproj
+		SccProjectTopLevelParentUniqueName4 = QuickOpcVBNetExamples.sln
+		SccProjectName4 = Web/BrowseServersWeb
+		SccLocalPath4 = Web\\BrowseServersWeb
+		SccProjectUniqueName5 = WindowsForms\\ValueToMessageBox\\ValueToMessageBox.vbproj
+		SccProjectTopLevelParentUniqueName5 = QuickOpcVBNetExamples.sln
+		SccProjectName5 = WindowsForms/ValueToMessageBox
+		SccLocalPath5 = WindowsForms\\ValueToMessageBox
+		SccProjectUniqueName6 = WindowsForms\\SubscribeToMany\\SubscribeToMany.vbproj
+		SccProjectTopLevelParentUniqueName6 = QuickOpcVBNetExamples.sln
+		SccProjectName6 = WindowsForms/SubscribeToMany
+		SccLocalPath6 = WindowsForms\\SubscribeToMany
+		SccProjectUniqueName7 = WindowsForms\\HmiScreen\\HmiScreen.vbproj
+		SccProjectTopLevelParentUniqueName7 = QuickOpcVBNetExamples.sln
+		SccProjectName7 = WindowsForms/HmiScreen
+		SccLocalPath7 = WindowsForms\\HmiScreen
+		SccProjectUniqueName8 = Web\\AutoRefreshWeb\\AutoRefreshWeb.vbproj
+		SccProjectTopLevelParentUniqueName8 = QuickOpcVBNetExamples.sln
+		SccProjectName8 = Web/AutoRefreshWeb
+		SccLocalPath8 = Web\\AutoRefreshWeb
+		SccProjectUniqueName9 = WindowsForms\\WindowsFormsApplication1\\WindowsFormsApplication1.vbproj
+		SccProjectTopLevelParentUniqueName9 = QuickOpcVBNetExamples.sln
+		SccProjectName9 = WindowsForms/WindowsFormsApplication1
+		SccLocalPath9 = WindowsForms\\WindowsFormsApplication1
+		SccProjectUniqueName10 = WindowsForms\\EasyOpcNetDemo\\EasyOpcNetDemo.vbproj
+		SccProjectTopLevelParentUniqueName10 = QuickOpcVBNetExamples.sln
+		SccProjectName10 = WindowsForms/EasyOpcNetDemo
+		SccLocalPath10 = WindowsForms\\EasyOpcNetDemo
+		SccProjectUniqueName11 = Console\\ConsoleLiveMapping\\ConsoleLiveMapping.vbproj
+		SccProjectTopLevelParentUniqueName11 = QuickOpcVBNetExamples.sln
+		SccProjectName11 = Console/ConsoleLiveMapping
+		SccLocalPath11 = Console\\ConsoleLiveMapping
+		SccProjectUniqueName12 = WindowsForms\\LiveBindingDemo\\LiveBindingDemo.vbproj
+		SccProjectTopLevelParentUniqueName12 = QuickOpcVBNetExamples.sln
+		SccProjectName12 = WindowsForms/LiveBindingDemo
+		SccLocalPath12 = WindowsForms\\LiveBindingDemo
+		SccProjectUniqueName13 = Console\\UADocExamples\\UADocExamples.vbproj
+		SccProjectTopLevelParentUniqueName13 = QuickOpcVBNetExamples.sln
+		SccProjectName13 = Console/UADocExamples
+		SccLocalPath13 = Console\\UADocExamples
+		SccProjectUniqueName14 = Web\\UAWebApplication1\\UAWebApplication1.vbproj
+		SccProjectTopLevelParentUniqueName14 = QuickOpcVBNetExamples.sln
+		SccProjectName14 = Web/UAWebApplication1
+		SccLocalPath14 = Web\\UAWebApplication1
+		SccProjectUniqueName15 = WindowsForms\\EasyOpcUADemo\\EasyOpcUADemo.vbproj
+		SccProjectTopLevelParentUniqueName15 = QuickOpcVBNetExamples.sln
+		SccProjectName15 = WindowsForms/EasyOpcUADemo
+		SccLocalPath15 = WindowsForms\\EasyOpcUADemo
+		SccProjectUniqueName16 = Console\\UAConsoleLiveMapping\\UAConsoleLiveMapping.vbproj
+		SccProjectTopLevelParentUniqueName16 = QuickOpcVBNetExamples.sln
+		SccProjectName16 = Console/UAConsoleLiveMapping
+		SccLocalPath16 = Console\\UAConsoleLiveMapping
+		SccProjectUniqueName17 = WindowsForms\\UALiveBindingDemo\\UALiveBindingDemo.vbproj
+		SccProjectTopLevelParentUniqueName17 = QuickOpcVBNetExamples.sln
+		SccProjectName17 = WindowsForms/UALiveBindingDemo
+		SccLocalPath17 = WindowsForms\\UALiveBindingDemo
+		SccProjectUniqueName18 = Web\\DataGridWebApplication\\DataGridWebApplication.vbproj
+		SccProjectTopLevelParentUniqueName18 = QuickOpcVBNetExamples.sln
+		SccProjectName18 = Web/DataGridWebApplication
+		SccLocalPath18 = Web\\DataGridWebApplication
+		SccProjectUniqueName19 = Console\\LogAsUnionToSql\\LogAsUnionToSql.vbproj
+		SccProjectTopLevelParentUniqueName19 = QuickOpcVBNetExamples.sln
+		SccProjectName19 = Console/LogAsUnionToSql
+		SccLocalPath19 = Console\\LogAsUnionToSql
+		SccProjectUniqueName20 = Console\\LogAsStringToSql\\LogAsStringToSql.vbproj
+		SccProjectTopLevelParentUniqueName20 = QuickOpcVBNetExamples.sln
+		SccProjectName20 = Console/LogAsStringToSql
+		SccLocalPath20 = Console\\LogAsStringToSql
+		SccProjectUniqueName21 = Console\\LogToSqlEnhanced\\LogToSqlEnhanced.vbproj
+		SccProjectTopLevelParentUniqueName21 = QuickOpcVBNetExamples.sln
+		SccProjectName21 = Console/LogToSqlEnhanced
+		SccLocalPath21 = Console\\LogToSqlEnhanced
+		SccProjectUniqueName22 = Console\\SimpleLogToSql\\SimpleLogToSql.vbproj
+		SccProjectTopLevelParentUniqueName22 = QuickOpcVBNetExamples.sln
+		SccProjectName22 = Console/SimpleLogToSql
+		SccLocalPath22 = Console\\SimpleLogToSql
+		SccProjectUniqueName23 = Console\\XmlLogger\\XmlLogger.vbproj
+		SccProjectTopLevelParentUniqueName23 = QuickOpcVBNetExamples.sln
+		SccProjectName23 = Console/XmlLogger
+		SccLocalPath23 = Console\\XmlLogger
+		SccProjectUniqueName24 = Console\\XmlEventLogger\\XmlEventLogger.vbproj
+		SccProjectTopLevelParentUniqueName24 = QuickOpcVBNetExamples.sln
+		SccProjectName24 = Console/XmlEventLogger
+		SccLocalPath24 = Console\\XmlEventLogger
+		SccProjectUniqueName25 = Console\\SubscribeFromXml\\SubscribeFromXml.vbproj
+		SccProjectTopLevelParentUniqueName25 = QuickOpcVBNetExamples.sln
+		SccProjectName25 = Console/SubscribeFromXml
+		SccLocalPath25 = Console\\SubscribeFromXml
+		SccProjectUniqueName26 = WindowsForms\\OvenControl\\OvenControl.vbproj
+		SccProjectTopLevelParentUniqueName26 = QuickOpcVBNetExamples.sln
+		SccProjectName26 = WindowsForms/OvenControl
+		SccLocalPath26 = WindowsForms\\OvenControl
+		SccProjectUniqueName27 = Console\\DocExamples\\DocExamples.vbproj
+		SccProjectTopLevelParentUniqueName27 = QuickOpcVBNetExamples.sln
+		SccProjectName27 = Console/DocExamples
+		SccLocalPath27 = Console\\DocExamples
+		SccProjectUniqueName28 = WindowsService\\WindowsService1\\WindowsService1.vbproj
+		SccProjectTopLevelParentUniqueName28 = QuickOpcVBNetExamples.sln
+		SccProjectName28 = WindowsService/WindowsService1
+		SccLocalPath28 = WindowsService\\WindowsService1
+		SccProjectUniqueName29 = Web\\WebService1\\WebService1.vbproj
+		SccProjectTopLevelParentUniqueName29 = QuickOpcVBNetExamples.sln
+		SccProjectName29 = Web/WebService1
+		SccLocalPath29 = Web\\WebService1
+		SccProjectUniqueName30 = Web\\WcfService1\\WcfService1.vbproj
+		SccProjectTopLevelParentUniqueName30 = QuickOpcVBNetExamples.sln
+		SccProjectName30 = Web/WcfService1
+		SccLocalPath30 = Web\\WcfService1
+		SccProjectUniqueName31 = Console\\WcfClient1\\WcfClient1.vbproj
+		SccProjectTopLevelParentUniqueName31 = QuickOpcVBNetExamples.sln
+		SccProjectName31 = Console/WcfClient1
+		SccLocalPath31 = Console\\WcfClient1
+		SccProjectUniqueName32 = WindowsForms\\ListView1\\ListView1.vbproj
+		SccProjectTopLevelParentUniqueName32 = QuickOpcVBNetExamples.sln
+		SccProjectName32 = WindowsForms/ListView1
+		SccLocalPath32 = WindowsForms\\ListView1
+		SccProjectUniqueName33 = WindowsForms\\FormsDocExamples\\FormsDocExamples.vbproj
+		SccProjectTopLevelParentUniqueName33 = QuickOpcVBNetExamples.sln
+		SccProjectName33 = WindowsForms/FormsDocExamples
+		SccLocalPath33 = WindowsForms\\FormsDocExamples
+		SccProjectUniqueName34 = WindowsForms\\UAFormsDocExamples\\UAFormsDocExamples.vbproj
+		SccProjectTopLevelParentUniqueName34 = QuickOpcVBNetExamples.sln
+		SccProjectName34 = WindowsForms/UAFormsDocExamples
+		SccLocalPath34 = WindowsForms\\UAFormsDocExamples
+		SccProjectUniqueName35 = WindowsForms\\EasyOpcUAPubSubDemo\\EasyOpcUAPubSubDemo.vbproj
+		SccProjectTopLevelParentUniqueName35 = QuickOpcVBNetExamples.sln
+		SccProjectName35 = WindowsForms/EasyOpcUAPubSubDemo
+		SccLocalPath35 = WindowsForms\\EasyOpcUAPubSubDemo
+	EndGlobalSection
+EndGlobal
