@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net472;net6.0</TargetFrameworks>
+		<OutputType>Library</OutputType>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="OpcLabs.OpcWizard" Version="5.81.455"/>
+	</ItemGroup>
+</Project>

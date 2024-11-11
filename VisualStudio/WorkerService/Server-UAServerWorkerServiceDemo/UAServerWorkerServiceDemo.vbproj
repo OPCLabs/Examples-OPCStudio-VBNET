@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImportedNamespaces>Microsoft.Extensions.Configuration=False,Microsoft.Extensions.DependencyInjection=False,Microsoft.Extensions.Hosting=False,Microsoft.Extensions.Logging=False,System.Net.Http=False,System.Threading=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,UAServerWorkerServiceDemo=True</ImportedNamespaces>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0"/>
+		<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0"/>
+		<PackageReference Include="OpcLabs.OpcWizard" Version="5.81.455"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Library\Server-UAServerDemoLibrary\UAServerDemoLibrary.vbproj"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Import Include="Microsoft.Extensions.Configuration"/>
+		<Import Include="Microsoft.Extensions.DependencyInjection"/>
+		<Import Include="Microsoft.Extensions.Hosting"/>
+		<Import Include="Microsoft.Extensions.Logging"/>
+		<Import Include="System.Net.Http"/>
+		<Import Include="System.Threading"/>
+	</ItemGroup>
+</Project>

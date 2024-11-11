@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+	<PropertyGroup Label="Manual">
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>UAServerConsoleDemo</RootNamespace>
+		<TargetFrameworks>net472;net6.0</TargetFrameworks>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="OpcLabs.OpcWizard" Version="5.81.455"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Library\Server-UAServerDemoLibrary\UAServerDemoLibrary.vbproj"/>
+	</ItemGroup>
+</Project>
