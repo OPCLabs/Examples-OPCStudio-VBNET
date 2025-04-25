@@ -34,14 +34,14 @@ Namespace _CertificateGenerationParameters
             Dim application As EasyUAApplication = EasyUAApplication.Instance
 
             Try
-                Console.WriteLine("Removing the current application instance certificate...")
-                application.RemoveOwnCertificate(mustExist:=False)
+                Console.WriteLine("Removing the current application instance certificate pack...")
+                application.RemoveOwnCertificatePack(mustExist:=False)
 
                 Console.WriteLine("Do something - invoke an OPC read, to trigger auto-generation of a new instance certificate...")
                 ' If you are doing server development: Instantiate and start the server here, instead of invoking the client.
                 client.ReadValue(endpointDescriptor, "nsu=http://test.org/UA/Data/ ;i=10853")
 
-                Console.WriteLine("Finding the current application instance certificate...")
+                Console.WriteLine("Finding the current default application instance certificate...")
                 Dim instanceCertificate As IPkiCertificate = application.FindOwnCertificate()
 
                 If (instanceCertificate IsNot Nothing) Then

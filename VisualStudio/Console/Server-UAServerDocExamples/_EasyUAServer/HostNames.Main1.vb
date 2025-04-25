@@ -6,7 +6,7 @@
 ' ReSharper disable LocalizableElement
 ' ReSharper disable StringLiteralTypo
 #Region "Example"
-' This example shows how to specify additional host name(s) for the server. This is useful when the server is running on a 
+' This example shows how to specify host name(s) for the server. This is useful when the server is running on a 
 ' computer that has multiple host names, and you want to make the server accessible under them.
 ' You can use any OPC UA client, including our Connectivity Explorer and OpcCmd utility, to connect to the server. 
 '
@@ -15,7 +15,6 @@
 ' Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
 ' a commercial license in order to use Online Forums, and we reply to every post.
 
-Imports System
 Imports OpcLabs.EasyOpc.UA
 Imports OpcLabs.EasyOpc.UA.Application
 Imports OpcLabs.EasyOpc.UA.Application.Extensions
@@ -23,17 +22,17 @@ Imports OpcLabs.EasyOpc.UA.NodeSpace
 Imports OpcLabs.EasyOpc.UA.OperationModel
 
 Namespace _EasyUAServer
-    Partial Friend Class AlternateHostNames
+    Partial Friend Class HostNames
         Shared Sub Main1()
             ' Obtain the application interface.
             Dim Application As EasyUAApplication = EasyUAApplication.Instance
 
-            ' Remove the own application certificate. This assures that, when needed, the server will create a new one with
-            ' the parameters we want and specify.
+            ' Remove the own application certificate pack. This assures that, when needed, the server will create a new one
+            ' with the parameters we want and specify.
             Try
-                Console.WriteLine("Removing the own application certificate...")
-                Application.RemoveOwnCertificate()
-                Console.WriteLine("The application certificate has been removed.")
+                Console.WriteLine("Removing the own application certificate pack...")
+                Application.RemoveOwnCertificatePack()
+                Console.WriteLine("The application certificate pack has been removed.")
             Catch uaException As UAException
                 Console.WriteLine("*** Failure: {0}", uaException.GetBaseException().Message)
             End Try
@@ -42,8 +41,8 @@ Namespace _EasyUAServer
             ' By default, the server will run on endpoint URL "opc.tcp://localhost:48040/".
             Dim server = New EasyUAServer()
 
-            ' Add an alternate host name to the server (and its application certificate).
-            server.AlternateHostNames.Add("mycomputer.mycompany.example")
+            ' Specify a host name for the server (and its application certificate).
+            server.HostNames.Add("mycomputer.mycompany.example")
 
             '
 

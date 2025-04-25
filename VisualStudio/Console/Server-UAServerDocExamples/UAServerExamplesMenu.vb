@@ -11,7 +11,6 @@ Public Class UACommonExamplesMenu
                 {
                     AddressOf _EasyUAServer._Construction.Main1,
                     AddressOf _EasyUAServer._Parameterization.OpcCompliance,
-                    AddressOf _EasyUAServer.AlternateHostNames.Main1,
                     AddressOf _EasyUAServer.ConversionError.Main1,
                     AddressOf _EasyUAServer.Dispose.Main1,
                     AddressOf _EasyUAServer.EffectiveEndpointDescriptor.Main1,
@@ -19,6 +18,7 @@ Public Class UACommonExamplesMenu
                     AddressOf _EasyUAServer.EndpointUrl.Main1,
                     AddressOf _EasyUAServer.EndpointUrlString.Main1,
                     AddressOf _EasyUAServer.FindServerNode.Main1,
+                    AddressOf _EasyUAServer.HostNames.Main1,
                     AddressOf _EasyUAServer.LogEntry.Main1,
                     AddressOf _EasyUAServer.MessageSecurityModes.Secure,
                     AddressOf _EasyUAServer.MessageSecurityModes.SecurityNone,

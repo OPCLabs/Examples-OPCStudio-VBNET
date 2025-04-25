@@ -6,11 +6,12 @@
 		<SccLocalPath>SAK</SccLocalPath>
 	</PropertyGroup>
 	<PropertyGroup>
-		<TargetFrameworks>net472;net6.0</TargetFrameworks>
+		<TargetFrameworks>net472;net8.0</TargetFrameworks>
 		<OutputType>Library</OutputType>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="OpcLabs.OpcWizard" Version="5.81.455"/>
+		<PackageReference Include="OpcLabs.OpcWizard" Version="5.82.175"/>
 	</ItemGroup>
 </Project>

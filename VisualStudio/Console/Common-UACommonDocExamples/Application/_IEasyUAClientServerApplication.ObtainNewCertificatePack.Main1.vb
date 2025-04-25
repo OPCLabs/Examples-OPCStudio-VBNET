@@ -3,8 +3,8 @@
 
 ' ReSharper disable CheckNamespace
 #Region "Example"
-' Shows how to obtain a new application certificate from the certificate manager (GDS), and store it for subsequent usage,
-' with progress reporting.
+' Shows how to obtain a new application certificate pack from the certificate manager (GDS), and store it for subsequent
+' usage.
 '
 ' Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
 ' OPC client and subscriber examples in VB.NET on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VBNET .
@@ -13,14 +13,15 @@
 
 Imports OpcLabs.BaseLib.Security.Cryptography.PkiCertificates
 Imports OpcLabs.EasyOpc.UA
+Imports OpcLabs.EasyOpc.UA.AddressSpace
 Imports OpcLabs.EasyOpc.UA.Application
 Imports OpcLabs.EasyOpc.UA.Application.Extensions
 Imports OpcLabs.EasyOpc.UA.Extensions
 Imports OpcLabs.EasyOpc.UA.OperationModel
 
 Namespace Application._IEasyUAClientServerApplication
-    Partial Friend Class ObtainNewCertificate
-        Public Shared Sub Progress()
+    Partial Friend Class ObtainNewCertificatePack
+        Public Shared Sub Main1()
 
             ' Define which GDS we will work with.
             Dim gdsEndpointDescriptor As UAEndpointDescriptor =
@@ -34,18 +35,22 @@ Namespace Application._IEasyUAClientServerApplication
             Console.WriteLine("Application URI string: {0}",
                 application.GetApplicationElement().ApplicationUriString)
 
-            ' Obtain a new application certificate from the certificate manager (GDS), and store it for subsequent usage.
-            Dim certificate As IPkiCertificate
+            ' Obtain a new application certificate pack from the certificate manager (GDS), and store it for subsequent
+            ' usage.
+            Dim certificateDictionary As UANodeIdPkiCertificateDictionary
             Try
-                certificate = application.ObtainNewCertificate(gdsEndpointDescriptor,
-                    New Progress(Of String)(Sub(s) Console.WriteLine("Progress: {0}", s)))
+                certificateDictionary = application.ObtainNewCertificatePack(gdsEndpointDescriptor)
             Catch uaException As UAException
                 Console.WriteLine("*** Failure: {0}", uaException.GetBaseException.Message)
                 Exit Sub
             End Try
 
             ' Display results
-            Console.WriteLine("Certificate: {0}", certificate)
+            For Each pair As KeyValuePair(Of UANodeId, IPkiCertificate) In certificateDictionary
+                Console.WriteLine()
+                Console.WriteLine($"Certificate type Id: {pair.Key}")
+                Console.WriteLine($"Certificate: {pair.Value}")
+            Next
         End Sub
     End Class
 End Namespace

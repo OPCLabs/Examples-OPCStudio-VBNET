@@ -21,6 +21,10 @@ Imports System.Runtime.InteropServices
 ' The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("1464065a-6289-42c0-8392-5c39d16745f6")>
 
+#If Not NETFRAMEWORK Then
+<Assembly: System.Runtime.Versioning.SupportedOSPlatform("windows")>
+#End If
+
 ' Version information for an assembly consists of the following four values:
 '
 '      Major Version

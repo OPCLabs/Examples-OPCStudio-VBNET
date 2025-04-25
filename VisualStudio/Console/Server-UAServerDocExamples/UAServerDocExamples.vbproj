@@ -7,10 +7,11 @@
 	</PropertyGroup>
 	<PropertyGroup Label="Manual">
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 	</PropertyGroup>
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFrameworks>net472;net6.0</TargetFrameworks>
+		<TargetFrameworks>net472;net8.0</TargetFrameworks>
 		<AssemblyName>UAServerDocExamples</AssemblyName>
 		<RootNamespace>UAServerDocExamples</RootNamespace>
 	</PropertyGroup>
@@ -21,7 +22,7 @@
 		<EmbeddedResource Include="Licensing\Key-DemoOrTrial-WebForm-1995003302-20240717.txt"/>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="OpcLabs.OpcWizard" Version="5.81.455"/>
-		<PackageReference Include="OpcLabs.QuickOpc" Version="5.81.455"/>
+		<PackageReference Include="OpcLabs.OpcWizard" Version="5.82.175"/>
+		<PackageReference Include="OpcLabs.QuickOpc" Version="5.82.175"/>
 	</ItemGroup>
 </Project>

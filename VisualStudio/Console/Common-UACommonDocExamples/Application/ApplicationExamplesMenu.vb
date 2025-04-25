@@ -10,12 +10,12 @@ Namespace Application
         Shared Sub Main1()
             Dim actionArray = New Action() _
             {
-                AddressOf _IEasyUAClientServerApplication.AssureOwnCertificate.Main1,
+                AddressOf _IEasyUAClientServerApplication.AssureOwnCertificatePack.Main1,
                 AddressOf _IEasyUAClientServerApplication.FindGdsRegistrations.Main1,
                 AddressOf _IEasyUAClientServerApplication.GetApplicationElement.Main1,
                 AddressOf _IEasyUAClientServerApplication.GetCertificateSubjectName.Main1,
-                AddressOf _IEasyUAClientServerApplication.ObtainNewCertificate.Main1,
-                AddressOf _IEasyUAClientServerApplication.ObtainNewCertificate.Progress,
+                AddressOf _IEasyUAClientServerApplication.ObtainNewCertificatePack.Main1,
+                AddressOf _IEasyUAClientServerApplication.ObtainNewCertificatePack.Progress,
                 AddressOf _IEasyUAClientServerApplication.RefreshTrustLists.Main1,
                 AddressOf _IEasyUAClientServerApplication.RegisterToGds.Main1,
                 AddressOf _IEasyUAClientServerApplication.UnregisterFromGds.Main1,

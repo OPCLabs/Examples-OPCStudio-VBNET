@@ -7,11 +7,12 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
+		<TargetFrameworks>net472;net8.0-windows</TargetFrameworks>
 		<StartupObject>EasyOpcUAPubSubDemo.My.MyApplication</StartupObject>
 		<UseWindowsForms>true</UseWindowsForms>
 		<MyType>WindowsForms</MyType>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 	</PropertyGroup>
 	<ItemGroup>
 		<Import Include="System.Data"/>
@@ -32,7 +33,12 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="OpcLabs.QuickOpc" Version="5.81.455"/>
-		<PackageReference Include="OpcLabs.QuickOpc.Forms" Version="5.81.455"/>
+		<PackageReference Include="OpcLabs.QuickOpc" Version="5.82.175"/>
+		<PackageReference Include="OpcLabs.QuickOpc.Forms" Version="5.82.175"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="MainForm.vb">
+			<SubType>Form</SubType>
+		</Compile>
 	</ItemGroup>
 </Project>

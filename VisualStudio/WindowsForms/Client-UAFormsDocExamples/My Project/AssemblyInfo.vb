@@ -22,4 +22,8 @@ Imports System.Runtime.InteropServices
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("2836e6e9-17b6-4738-96ef-175ce4fdb57b")>
 
-<Assembly: Resources.NeutralResourcesLanguageAttribute("en-US")> 
+<Assembly: Resources.NeutralResourcesLanguageAttribute("en-US")>
+
+#If Not NETFRAMEWORK Then
+<Assembly: System.Runtime.Versioning.SupportedOSPlatform("windows")>
+#End If
